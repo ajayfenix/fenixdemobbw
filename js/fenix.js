@@ -566,8 +566,7 @@ jQuery(document).ready(function() {
 
 function ___fenixRecallApi(requestData) {
    jQuery.ajax({
-       //url: "https://delest-api.fenixcommerce.com/fenixdelest/api/v3/deliveryestimates",
-       url: "https://delest-v1.preprod.fenixcommerce.com/fenixdelest/api/v3/deliveryestimates",
+       url: "https://delest-api.fenixcommerce.com/fenixdelest/api/v3/deliveryestimates",
        type: "POST",
        headers: {
            tenantId: "5075a60d701746ca80de05c8bd4b253d",
@@ -721,8 +720,7 @@ function fenixVariantChange(){
 // Fenix cart page request
 function ___fenixCartRequest(cartRequest) {
    jQuery.ajax({
-       //url: "https://delest-api.fenixcommerce.com/fenixdelest/api/v3/deliveryestimates",
-       url: "https://delest-v1.preprod.fenixcommerce.com/fenixdelest/api/v3/deliveryestimates",
+       url: "https://delest-api.fenixcommerce.com/fenixdelest/api/v3/deliveryestimates",
        type: "POST",
        headers: {
            tenantId: "5075a60d701746ca80de05c8bd4b253d",
